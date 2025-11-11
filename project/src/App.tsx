@@ -20,7 +20,7 @@ function AppContent() {
     return <Auth />;
   }
 
-  if (!user) {
+  if (user) {
     return <Dashboard />;
   }
 
